@@ -27,3 +27,13 @@
   bottom: 3px;
   right: 3px;
 }
+
+.circle1:hover {
+  animation: spin 8s infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
