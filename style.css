@@ -16,6 +16,7 @@
   border: 3px solid whitesmoke;
   position: relative;
   border-radius: 50%;
+  transition: 2.5s linear;
 }
 
 .circle1 {
@@ -29,11 +30,15 @@
 }
 
 .circle1:hover {
-  animation: spin 8s infinite;
+  animation: spin 8s infinite linear forwards;
 }
 
 @keyframes spin {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.circle1:hover .crc {
+  transform: rotate(15deg);
 }
