@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
 body {
-  background: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%) fixed;
+  background: linear-gradient(-225deg, #0F0C29 0%, #302B63 60%, #24243E 100%) fixed;
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -9,8 +9,9 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 3.7rem;
-  color: whitesmoke;
+  margin: 5%;
+  font-size: 2.4rem;
+  color: #F0F1EE;
 }
 
 .container {
@@ -27,7 +28,7 @@ h1 {
 .circle1, .crc {
   height: 400px;
   width: 70px;
-  border: 3px solid whitesmoke;
+  border: 2px solid #F0F1EE;
   position: relative;
   border-radius: 50%;
   transition: 2.5s linear;
@@ -39,8 +40,8 @@ h1 {
 }
 
 .crc {
-  bottom: 3px;
-  right: 3px;
+  bottom: 2px;
+  right: 2px;
 }
 
 .circle1:hover {
