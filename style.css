@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
 body {
   background: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%) fixed;
   padding: 0;
   margin: 0;
   overflow: hidden;
+  font-family: 'Megrim', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.7rem;
+  color: whitesmoke;
 }
 
 .container {
@@ -36,7 +44,8 @@ body {
 }
 
 .circle1:hover {
-  animation: spin 20s infinite linear forwards;
+  animation: spin 9s infinite linear forwards;
+  cursor: pointer;
 }
 
 @keyframes spin {
