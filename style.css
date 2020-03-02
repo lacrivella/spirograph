@@ -1,7 +1,13 @@
+body {
+  background: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%) fixed;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
 .container {
   height: 450px;
   width: 450px;
-  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   position: absolute;
   margin: auto;
   top: 0;
@@ -30,7 +36,7 @@
 }
 
 .circle1:hover {
-  animation: spin 8s infinite linear forwards;
+  animation: spin 20s infinite linear forwards;
 }
 
 @keyframes spin {
